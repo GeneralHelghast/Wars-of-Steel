@@ -1,0 +1,66 @@
+capital = 366
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	transport = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+set_research_slots = 3
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 10
+		}
+
+		liberalism = {
+			popularity = 10
+		}
+		
+		communism = {
+			popularity = 10
+		}
+		
+		reactionary_democracy = { 
+			popularity = 40
+		}
+
+		social_democracy = { 
+			popularity = 10
+		}
+
+		neo_nepotism = { 
+			popularity = 10
+		}
+
+		socialism = {
+			popularity = 10
+		}
+
+		fordism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = reactionary_democracy
+	last_election = "1936.1.1"
+	election_frequency = 52
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Pat Cannon"
+	picture = "Darwinreich Pat Cannon Portrait.dds"
+	expire = "1965.1.1"
+	ideology = paleoconservatism
+	traits = {
+	}
+}

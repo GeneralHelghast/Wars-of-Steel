@@ -1,0 +1,409 @@
+﻿capital = 111
+
+oob = "FIN_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "FIN_1936_naval_mtg"
+	else = {
+		set_naval_oob = "FIN_1936_naval_legacy"
+	}
+}
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		coastal_defense_ships = 1
+	}
+}
+
+set_convoys = 5
+
+add_ideas = {
+	limited_conscription
+}
+
+1939.1.1 = {
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "FIN_1939"
+	set_technology = {
+		early_fighter = 1
+		early_bomber = 1
+		CAS1 = 1		
+		interwar_artillery = 1
+		interwar_antitank = 1
+		interwar_antiair = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+		support_weapons2 = 1
+
+		#doctrines
+		#Air
+		force_rotation = 1
+		fighter_baiting = 1
+
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		submarine_operations = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+	}
+}
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 40
+		}
+
+		liberalism = { 
+			popularity = 0
+		}
+
+		reactionary_democracy = {
+			popularity = 10
+		}
+
+		social_democracy = {
+			popularity = 10
+		}
+
+		classical_fascism = {
+			popularity = 10
+		}
+			
+		communism = {
+			popularity = 10
+		}
+
+		neo_nepotism = {
+			popularity = 10
+		}
+	
+	}
+	
+	ruling_party = conservatism
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			conservatism = { 
+				popularity = 40
+			}
+
+			liberalism = { 
+				popularity = 0
+			}
+
+			reactionary_democracy = {
+				popularity = 10
+			}
+
+			social_democracy = {
+				popularity = 10
+			}
+
+			classical_fascism = {
+				popularity = 10
+			}
+			
+			communism = {
+				popularity = 10
+			}
+
+			neo_nepotism = {
+				popularity = 10
+			}
+		}
+		
+		ruling_party = conservatism
+		last_election = "1939.7.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+}
+create_country_leader = {
+	name = "Pehr Evind Svinhufvud"
+	picture = "Darwinreich Pehr Evind Svinhufvud Portrait.dds"
+	expire = "1965.1.1"
+	ideology = liberal_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Risto Heikki Ryti"
+	picture = "Darwinreich Risto Heikki Ryti Portrait.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yrjo Hautala"
+	picture = "Darwinreich Yrjö Hautala Potrait.dds"
+	expire = "1965.1.1"
+	ideology = right_wing_populism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vaino Tanner"
+	picture = "Darwinreich Väinö Tanner Portrait.dds"
+	expire = "1965.1.1"
+	ideology = radical_reformism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yrjo Sirola"
+	picture = "Darwinreich Yrjö Sirola Portrait.dds"
+	expire = "1965.1.1"
+	ideology = socialism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carl Gustaf Mannerheim"
+	picture = "Darwinreich Carl Gustaf Mannerheim Portrait.dds"
+	expire = "1965.1.1"
+	ideology = stratocracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kullervo Manner"
+	picture = "Darwinreich Kullervo Manner Portrait"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Toivo Hjalmar Langstrom"
+	picture = "Darwinreich Toivo Hjalmar Långström Portrait "
+	expire = "1965.1.1"
+	ideology = thalmannism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vilho Helanen"
+	picture = "Darwinreich Vilho Helanen Portrait.dds"
+	expire = "1965.1.1"
+	ideology = strasserism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl Lennart Oesch"
+	picture = "Darwinreich Karl Lennart Oesch Portrait.dds"
+	expire = "1965.1.1"
+	ideology = constitutional_dictatorship
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Frederick Charles I"
+	picture = "Darwinreich Frederick Charles I.dds"
+	expire = "1965.1.1"
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tapio Koskela"
+	picture = "Darwinreich Tapio Koskela Portrait.dds"
+	expire = "1965.1.1"
+	ideology = warrior_paganism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carl Paivio"
+	picture = "Darwinreich Carl Paivio Portrait.dds"
+	expire = "1965.1.1"
+	ideology = anarcho_communism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vilho Annala"
+	picture = "Darwinreich Vilho Annala Portrait.dds"
+	expire = "1965.1.1"
+	ideology = meritocratic_stratocracy
+	traits = {
+		#
+	}
+}
+
+
+add_ideas = {
+	sisu
+}
+
+create_corps_commander = {
+	name = "Erik Heinrichs"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { winter_specialist ranger }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vilho Petter Nenonen"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { winter_specialist commando }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 1
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+### VARIANTS ###
+# 1936 Start #
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Ship Variants ###
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	# Submarines #
+	create_equipment_variant = {
+		name = "Vetehinen Class"								
+		type = ship_hull_submarine_1
+		name_group = FIN_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_mine_layer_sub
+		}
+	}
+	create_equipment_variant = {
+		name = "Vesikko Class"								
+		type = ship_hull_submarine_1
+		name_group = FIN_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+	# Heavy Cruisers #
+	create_equipment_variant = {
+		name = "Väinämöinen Class"				
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = FIN_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+}
