@@ -1,0 +1,77 @@
+﻿capital = 808
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	transport = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+set_research_slots = 3
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 10
+		}
+
+		liberalism = {
+			popularity = 40
+		}
+		
+		communism = {
+			popularity = 20
+		}
+		
+		reactionary_democracy = { 
+			popularity = 10
+		}
+
+		social_democracy = { 
+			popularity = 0
+		}
+
+		neo_nepotism = { 
+			popularity = 0
+		}
+
+		fundamentalism = {
+			popularity = 20
+		}
+
+		fordism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Robert Taylor Jones"
+	picture = "Darwinreich Robert Taylor Jones Portrait.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Dan Edward Garvey"
+	picture = "Darwinreich Dan Edward Garvey Portrait.dds"
+	expire = "1965.1.1"
+	ideology = paleoconservatism
+	traits = {
+		#
+	}
+}
