@@ -1,0 +1,66 @@
+﻿capital = 375
+
+oob = "TEX_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	transport = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+set_research_slots = 3
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 40
+		}
+
+		liberalism = {
+			popularity = 10
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		reactionary_democracy = { 
+			popularity = 10
+		}
+
+		social_democracy = { 
+			popularity = 20
+		}
+
+		neo_nepotism = { 
+			popularity = 10
+		}
+
+		fordism = { 
+			popularity = 10
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Martin Dies Jr."
+	picture = "Darwinreich Martin Dies Jr. Portrait.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
