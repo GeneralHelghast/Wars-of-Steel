@@ -1,0 +1,26 @@
+state={
+	id=801
+	name="Llanquihue"
+	provinces={
+		5169 12954 
+	}
+
+	state_category = pastoral
+
+	history={
+		owner = MAP
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MAP
+		add_core_of = PAT
+		add_core_of = CHL
+
+		victory_points = {
+			12954 5
+		}
+	}
+
+	manpower=302000
+	buildings_max_level_factor=1.000
+}

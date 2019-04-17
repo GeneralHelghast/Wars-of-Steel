@@ -1,0 +1,21 @@
+state={
+	id=868
+	name="Neukamerun"
+
+	provinces={
+		1993 8078 11012 12830 13214
+	}
+
+	state_category = rural
+
+	manpower=30000
+	buildings_max_level_factor=3.000
+
+	history={
+		owner = GER
+		victory_points = {
+			11012 5 
+		}
+
+	}
+}

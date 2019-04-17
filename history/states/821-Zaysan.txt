@@ -1,0 +1,25 @@
+state={
+	id=821
+	name="Zaysan"
+	provinces={
+		1749 1818 4674 10610 10653 12427 12564 12635 13151 
+	}
+
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = SIK
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SIK
+
+	}
+
+	manpower=456800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

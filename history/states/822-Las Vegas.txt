@@ -1,0 +1,26 @@
+state={
+	id=822
+	name="Las Vegas"
+	provinces={
+		4799 
+	}
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+		add_core_of = CAL
+		victory_points = {
+			4799 15 
+		}
+
+	}
+
+	state_category=town
+
+	manpower=95038
+	buildings_max_level_factor=1.000
+}

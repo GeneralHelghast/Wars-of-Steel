@@ -1,0 +1,26 @@
+state={
+	id=857
+	name="Zululand"
+	provinces={
+		1494 7900 8178 
+	}
+
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = SAF
+
+		victory_points = {
+			7900 3 
+		}
+
+	}
+
+	manpower=534754
+	buildings_max_level_factor=1.000
+	state_cateogry=rural
+}

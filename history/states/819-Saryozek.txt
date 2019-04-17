@@ -1,0 +1,28 @@
+state={
+	id=819
+	name="Saryozek"
+	provinces={
+		1591 1840 4391 4768 12511 13147 
+	}
+
+	history={
+		owner = SIK
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			1591 3 
+		}
+		add_core_of = SOV
+		add_core_of = SIK
+		
+
+	}
+
+	state_category=rural
+
+	manpower=1250000
+	buildings_max_level_factor=1.000
+}

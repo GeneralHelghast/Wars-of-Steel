@@ -1,0 +1,28 @@
+state={
+	id=832
+	name="Nueces"
+	provinces={
+		2042 5061 6785 6987 12369 
+	}
+
+	history={
+		owner = TEX
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+
+		}
+		add_core_of = TEX
+		add_core_of = CSA
+		1938.4.12 = {
+			owner = CSA
+			controller = CSA
+
+		}
+
+	}
+
+	manpower=430000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

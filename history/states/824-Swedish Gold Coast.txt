@@ -1,0 +1,20 @@
+state={
+	id=824
+	name="Fort Christiansborg"
+	provinces={
+		12785 13136
+	}
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SWE
+
+	}
+	manpower=443510
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

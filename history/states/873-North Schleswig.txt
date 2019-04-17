@@ -1,0 +1,35 @@
+state={
+	id=873
+	name="North Schleswig"
+	manpower = 1672235
+	resources={
+		aluminium=6 # was: 10
+	}
+	
+	state_category = town
+
+	history=
+	{
+		owner = GER
+		victory_points = {
+			4364 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 2
+			394 = {
+				naval_base = 3
+			}
+			6364 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GER
+		add_core_of = DEN
+	}
+	provinces=
+	{
+332 11251 }
+}
+

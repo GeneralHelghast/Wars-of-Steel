@@ -1,0 +1,17 @@
+state={
+	id=877
+	name="Afghan Panhandle"
+	provinces={
+		7519 
+	}
+	state_category = town
+	history={
+		owner = CHT
+	
+		add_core_of = AFG
+		add_core_of = CHT
+	}
+
+	manpower=200000
+	buildings_max_level_factor=1.000
+}

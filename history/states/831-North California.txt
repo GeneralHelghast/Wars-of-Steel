@@ -1,0 +1,48 @@
+state={
+	id=831
+	name="Eureka"
+	provinces={
+		610 766 768 781 3588 3644 4331 6482 6665 6772 9697 9730 10159 11698 
+	}
+	resources={
+		oil=90.000
+		aluminium=4.000
+	}
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			air_base = 5
+			610 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = USA
+		add_core_of = CAL
+	
+		victory_points = {
+			1562 15 
+		}
+		victory_points = {
+			9671 25 
+		}
+		victory_points = {
+			9713 1 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
+		}
+	}
+		manpower=740000
+	buildings_max_level_factor=1.000
+}

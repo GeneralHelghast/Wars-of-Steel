@@ -1,0 +1,21 @@
+state={
+	id=827
+	name="Inner Cyrenaica"
+	provinces={
+		1140 1057 1060 10104 10754 10785 11951 
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+
+	}
+
+	manpower=35600
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

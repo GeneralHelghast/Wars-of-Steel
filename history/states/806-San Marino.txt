@@ -1,0 +1,27 @@
+state={
+	id=806
+	name="San Marino"
+	provinces={
+		13229 
+	}
+
+	history={
+		owner = SMR
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			13226 1 
+		}
+
+		add_core_of = SMR
+		add_core_of = ITA
+
+	}
+
+	state_category= town
+
+	manpower=33344
+	buildings_max_level_factor=1.000
+}

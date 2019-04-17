@@ -1,0 +1,38 @@
+state={
+	id=865
+	name="Appalachia"
+	provinces={
+		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888 
+	}
+	manpower=1808000
+	buildings_max_level_factor=3.000
+
+	state_category = city
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
+		}
+		add_core_of = CSA
+		victory_points = {
+			6696 1 
+		}
+		1939.1.1 = {
+			buildings = {
+				air_base = 2
+				radar_station = 1
+			}
+		}
+	
+		set_demilitarized_zone = yes
+	
+	
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
+	}
+
+}

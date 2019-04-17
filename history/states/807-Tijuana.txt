@@ -1,0 +1,29 @@
+state={
+	id=807
+	name="Tijuana"
+	provinces={
+		1892 12461 12859 13228 13229
+	}
+
+	state_category = town
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			1892 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = MEX
+		add_core_of = USA
+		add_core_of = CAL
+
+	}
+
+	manpower=230000
+	buildings_max_level_factor=1.000
+}

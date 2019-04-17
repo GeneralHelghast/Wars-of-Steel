@@ -1,0 +1,37 @@
+state={
+	id=860
+	name="Zeeland"
+	provinces={
+		480 9431 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	resources={
+		steel=2 # was: 4
+	}
+
+	history={
+		owner = HOL
+		add_core_of = HOL
+		add_core_of = BEL
+		add_core_of = FRA
+		victory_points = { 391 40 }
+		victory_points = { 2971 10 }
+		victory_points = { 3230 12 }
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
+			3314 = {
+				naval_base = 10
+			}
+			9498 = {
+				naval_base = 5
+			}
+		}
+
+	}
+
+}

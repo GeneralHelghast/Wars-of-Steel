@@ -1,0 +1,23 @@
+state={
+	id=839
+	name="Sawatch Range"
+	provinces={
+		1658 3869 13237 
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+		add_core_of = TEX
+
+	}
+
+	manpower=112000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

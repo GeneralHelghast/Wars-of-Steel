@@ -1,0 +1,19 @@
+state={
+	id=855
+	name="Annaba"
+	provinces={
+		1058 1141 1160 7081 9943 9976 11953 12034 12051 12888 
+	}
+	manpower=870050
+	buildings_max_level_factor=2.000
+	
+	state_category = wasteland
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+state={
+	id=878
+	name="Eastern Tarim"
+	provinces={
+		1943 2074 10315 10865 10911 13218 13220 13222
+	}
+	manpower=370000
+	buildings_max_level_factor=3.000
+
+	state_category = wasteland
+	history={
+		owner = CHT
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = CHT
+
+		victory_points = {
+			2074 10.0 
+		}
+
+		victory_points = {
+			2015 5.0 
+		}
+	}
+
+	buildings = {
+		infrastructure = 1
+	}
+}

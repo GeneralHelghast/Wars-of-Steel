@@ -1,0 +1,35 @@
+state={
+	id=813
+	name="San Diego"
+	provinces={
+		823 1562 7517 7986 12374
+	}
+
+	state_category = town
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			air_base = 3
+			1562 = {
+				naval_base = 10
+
+			}
+
+		}
+		add_core_of = USA
+		add_core_of = CAL
+		
+		victory_points = {
+			1562 15 
+		}
+
+	}
+
+	manpower=203000
+	buildings_max_level_factor=1.000
+}

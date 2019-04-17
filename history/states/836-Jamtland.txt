@@ -1,0 +1,27 @@
+state={
+	id=836
+	name="Jamtland"
+	provinces={
+		46 168 184 3039 3044 3111 3162 6152 6185 6207 9066 9095 9134 9171 11026 11049 11052 11116 11148 11187 13117 
+	}
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			9108 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SWE
+		add_core_of = NOR
+
+	}
+
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

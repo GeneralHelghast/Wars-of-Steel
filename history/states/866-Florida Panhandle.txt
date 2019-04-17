@@ -1,0 +1,19 @@
+state={
+	id=866
+	name="Florida Panhandle"
+	provinces={
+		10352 10380 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+state_category = city
+
+	history={
+		owner = CSA
+		add_core_of = CSA
+		victory_points = {
+			1000 2 
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=881
+	name=“Nordkamerun”
+	provinces={
+		7963 11194 
+	}
+	state_category = rural
+	resources={
+		rubber=3 # was: 5
+	}
+
+	manpower=127080
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = GER
+		victory_points = {
+			11012 5 
+		}
+
+	}
+}

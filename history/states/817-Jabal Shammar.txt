@@ -1,0 +1,34 @@
+state={
+	id=817
+	name="Shammar"
+	provinces={
+		1955 2057 4968 4974 5027 5058 5099 7970 8101 10815 10850 10892 10901 10923 12749 12758 
+	}
+	resources={
+		oil=3.000
+	}
+
+	state_category = rural
+
+	history={
+		owner = EJS
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+
+		}
+
+		victory_points = {
+			4968 5 
+		}
+
+		add_core_of = EJS
+
+
+	}
+
+	manpower=650300
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=884
+	name="STATE_884"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		1864 1879 4661 4670 4685 4867 7317 7350 7708 7890 10202 10218 10235 10584 10630 12594 12616 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

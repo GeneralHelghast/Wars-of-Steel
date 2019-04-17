@@ -1,0 +1,24 @@
+
+state={
+	id=876
+	name="Khamis Mushait"
+	manpower = 350000
+	
+	state_category = rural
+	resources={
+		oil=3 # was: 3
+	}
+
+	history={
+		owner = SAU
+		
+		victory_points = {
+			10786 10
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		 5006 10786 
+	}
+}

@@ -1,0 +1,28 @@
+state={
+	id=812
+	name="North Pueblo"
+	provinces={
+		2102 4975 10642 10867 12684 
+	}
+	resources={
+		oil=7.000
+		aluminium=5.000
+	}
+
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+		add_core_of = TEX
+
+	}
+
+	manpower=35000
+	buildings_max_level_factor=1.000
+}

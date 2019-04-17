@@ -1,0 +1,25 @@
+state={
+	id=825
+	name="Namaqualand"
+	provinces={
+		4528 10442 
+	}
+
+	state_category = town
+
+	history={
+		owner = SCO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			4528 = {
+				naval_base = 4
+			}
+		}
+
+		add_core_of = SAF
+	}
+
+	manpower=354200
+	buildings_max_level_factor=1.000
+}

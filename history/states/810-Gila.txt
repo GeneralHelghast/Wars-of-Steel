@@ -1,0 +1,25 @@
+state={
+	id=810
+	name="Gila"
+	provinces={
+		10914 
+	}
+
+	state_category = rural
+
+	history = {
+		owner = AZP
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+
+		add_core_of = USA
+		add_core_of = AZP
+		}
+	}
+
+	manpower=150000
+	buildings_max_level_factor=1.000
+}

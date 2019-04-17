@@ -1,0 +1,22 @@
+state={
+	id=814
+	name="Kukujevci"
+	provinces={
+		13233 
+	}
+
+	state_category = rural
+
+	history={
+		owner = CRO
+	
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SER
+		add_core_of = CRO
+	}
+
+	manpower=13080
+	buildings_max_level_factor=1.000
+}

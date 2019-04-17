@@ -1,0 +1,22 @@
+state={
+	id=840
+	name="Bighorn"
+	provinces={
+		868 1738 12627 
+	}
+	state_category=town
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = USA
+		add_core_of = TEX
+
+	}
+
+	manpower=100000
+	buildings_max_level_factor=1.000
+}

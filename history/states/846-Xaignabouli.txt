@@ -1,0 +1,21 @@
+state={
+	id=846
+	name="Xaignabouli"
+	provinces={
+		1464 1507 4568 7103 10330 10356 10456 
+	}
+		history={
+		owner = SIA
+		add_core_of = LAO
+		add_core_of = SIA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	manpower=540000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

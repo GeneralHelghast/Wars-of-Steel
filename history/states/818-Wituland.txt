@@ -1,0 +1,28 @@
+state={
+	id=818
+	name="Wituland"
+	provinces={
+		10976 
+	}
+
+	state_category = rural
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			10976 = {
+				naval_base = 2
+
+			}
+
+		}
+
+		add_core_of = KEN
+
+	}
+
+	manpower=20000
+	buildings_max_level_factor=1.000
+}

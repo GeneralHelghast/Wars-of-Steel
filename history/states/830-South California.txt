@@ -1,0 +1,42 @@
+state={
+	id=830
+	name="Los Angeles"
+	provinces={
+		941 986 3784 4518 6881 9814 9855 9911 10483 11757 11763 11795 11859 11876 
+	}
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			air_base = 5
+
+			9814 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = USA
+		add_core_of = CAL
+		victory_points = {
+			9814 30 
+		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 7
+
+			}
+
+		}
+
+	}
+
+	manpower=1238048
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

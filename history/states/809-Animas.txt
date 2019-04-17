@@ -1,0 +1,26 @@
+state={
+	id=809
+	name="Animas"
+	provinces={
+		5044 
+	}
+
+	state_category = rural
+
+	history = {
+		owner = AZP
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+
+		add_core_of = USA
+		add_core_of = MEX
+		add_core_of = AZP
+		}
+	}
+
+	manpower=20000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=872
+	name="Eupen-Malmedy"
+	
+	manpower=40000
+	buildings_max_level_factor=1.000
+
+	state_category = town
+	
+history=
+	{
+		owner = GER
+		controller = GER
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		victory_points = { 6583 5 }
+		add_core_of = GER
+		add_core_of = FRA
+		add_core_of = BEL
+	}
+provinces={
+		3488 
+	}
+}

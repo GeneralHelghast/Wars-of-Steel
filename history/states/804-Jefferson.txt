@@ -1,0 +1,28 @@
+state={
+	id=804
+	name="Jefferson"
+	provinces={
+		1523 7449 7607 10333 10391 10516 
+	}
+
+	resources={
+		aluminium=6.000
+	}
+
+	state_category = rural
+
+
+	history = {
+		owner = USA
+		
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+
+		add_core_of = USA
+		}
+
+	manpower=120000
+	buildings_max_level_factor=1.000
+}

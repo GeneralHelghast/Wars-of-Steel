@@ -1,0 +1,27 @@
+state={
+	id=803
+	name="Yuma"
+	provinces={
+		3834 7920 10783 
+	}
+
+	state_category = town
+
+
+	history = {
+		owner = AZP
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		add_core_of = USA
+		add_core_of = MEX
+		add_core_of = AZP
+		}
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+}

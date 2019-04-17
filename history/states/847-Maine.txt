@@ -1,0 +1,33 @@
+state={
+	id=847
+	name="Maine"
+	provinces={
+		1282 1338 1619 3732 4287 6719 7462 10247 10318 12202 12221 12459 
+	}
+
+	history={
+		owner = NEC
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 10
+
+		}
+		add_core_of = USA
+		add_core_of = NEC
+		victory_points = {
+			7452 1 
+		}
+		victory_points = {
+			3732 1 
+		}
+		victory_points = {
+			12459 1 
+		}
+
+	}
+	manpower=840000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

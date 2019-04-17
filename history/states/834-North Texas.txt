@@ -1,0 +1,32 @@
+
+state={
+	id=834
+	name="North Texas"
+
+	history={
+		owner = TEX
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+
+		}
+		victory_points = {
+			13230 5 
+		}
+		add_core_of = TEX
+		add_core_of = CSA
+		1938.4.12 = {
+			owner = CSA
+			controller = CSA
+
+		}
+
+	}
+
+	provinces={
+		2055 3875 3972 9773 9908 12301 12848 12893 13234 
+	}
+	manpower=756920
+	buildings_max_level_factor=1.000
+	state_category=town
+}

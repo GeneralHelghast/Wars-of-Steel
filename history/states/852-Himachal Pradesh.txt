@@ -1,0 +1,19 @@
+state={
+	id=852
+	name="Himachal Pradesh"
+	provinces={
+		1129 2076 7106 12822 
+	}
+	history={
+		owner = KHM
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

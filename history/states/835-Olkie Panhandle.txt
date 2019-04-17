@@ -1,0 +1,24 @@
+state={
+	id=835
+	name="East Oklahoma"
+	provinces={
+		12624 
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USA
+		add_core_of = TEX
+		add_core_of = CSA
+		
+
+	}
+
+	manpower=340200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

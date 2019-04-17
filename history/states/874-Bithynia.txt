@@ -1,0 +1,21 @@
+state=
+{
+	id=874
+	name="Bithynia"
+	manpower = 150000
+	
+	state_category = town
+	
+	history=
+	{
+		owner = GRE
+		victory_points = {
+			890 1 
+		}
+		
+		add_core_of = GRE
+	}
+	provinces=
+	{
+	890 904 6871 11811 }
+}
