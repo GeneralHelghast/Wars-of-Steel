@@ -1,4 +1,4 @@
-﻿capital = 362
+capital = 362
 
 oob = "CSA_1936"
 # Starting tech
@@ -269,6 +269,16 @@ create_country_leader = {
 	picture = "Darwinreich William Patterson Portrait.dds"
 	expire = "1965.1.1"
 	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = “George W Truett“
+	picture = "Darwinreich George W Truett Portrait.dds"
+	expire = "1965.1.1"
+	ideology = abrahamic
 	traits = {
 		
 	}

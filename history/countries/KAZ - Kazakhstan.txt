@@ -1,4 +1,4 @@
-﻿capital = 586 #Almaty
+capital = 586 #Almaty
 
 oob = "KAZ_1936"
 
@@ -40,13 +40,40 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 60
+		conservatism = { 
+			popularity = 10
+		}
+		
+		social_despotism = {
+			popularity = 40
 		}
 		
 		communism = {
-			popularity = 40
+			popularity = 10
+		}
+
+		socialism = {
+			popularity = 10
+		}
+
+		ultracommunism = {
+			popularity = 10
 		}		
+	}
+
+	ruling_party = social_despotism
+	last_election = "1935.04.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Nikolay Aleksandrovich Skvortsov"
+	picture = "Darwinreich Nygmet Nurmakov Portrait.dds"
+	expire = "1965.1.1"
+	ideology = bismarckism
+	traits = {
+		
 	}
 }
 
