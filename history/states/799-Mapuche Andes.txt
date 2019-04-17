@@ -1,0 +1,30 @@
+
+state={
+	id=799
+	name="Mapuche Andes"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = MAP
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MAP
+		add_core_of = PAT
+		add_core_of = CHL
+		victory_points = {
+			12306 5 
+		}
+
+	}
+
+	provinces={
+		2199 12306 13208 
+	}
+	manpower=150000
+	buildings_max_level_factor=2.000
+	state_category=pastoral
+}

@@ -1,0 +1,18 @@
+state={
+	id=797
+	name="Nordwest Kamerun"
+	provinces={
+		13211 13212 13213
+	}
+	buildings = {
+			infrastructure = 4
+		}
+
+	history={
+		owner = GER
+	}
+
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

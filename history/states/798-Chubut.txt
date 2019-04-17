@@ -1,0 +1,25 @@
+
+state={
+	id=798
+	name="Chubut"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ARG
+
+	}
+
+	provinces={
+		2149 8192 10935 10981 12321 12494 12982 13206 
+	}
+	manpower=125330
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

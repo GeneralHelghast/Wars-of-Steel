@@ -1,0 +1,23 @@
+state={
+	id=791
+	name="Vermont"
+	provinces={
+		4445 7629 9675 13158
+	}
+	state_category = rural
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+	}
+	add_core_of = USA
+
+	manpower=357000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=789
+	name="South Pamir"
+	provinces={
+		4923 5062 12370
+	}
+	state_category = wasteland
+	history={
+		owner = CHT
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CHT
+
+	}
+
+	manpower=130000
+	buildings_max_level_factor=1.000
+}

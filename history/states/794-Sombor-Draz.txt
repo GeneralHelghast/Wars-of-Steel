@@ -1,0 +1,31 @@
+state={
+	id=794
+	name="Sombor-Draz"
+	provinces={
+		619 3623 9608
+	}
+
+	state_category = city
+
+	history={
+		owner = CRO
+
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = { 
+			619 5 
+		}
+
+		victory_points = { 
+			9608 5 
+		}
+
+		add_core_of = CRO
+		add_core_of = HUN
+	}
+
+	manpower=320560
+	buildings_max_level_factor=1.000
+}

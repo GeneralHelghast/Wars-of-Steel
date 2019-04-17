@@ -1,0 +1,19 @@
+state={
+	id=788
+	name="East Tajikistan"
+	provinces={
+		10417 12805 13219
+	}
+	state_category = rural
+
+	history={
+		owner = CHT
+		buildings = {
+			infrastructure = 2
+		}
+		
+		add_core_of = CHT
+	}
+	manpower=640300
+	buildings_max_level_factor=5.000
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=800
+	name="Mapuche"
+
+	history={
+		owner = MAP
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MAP
+		add_core_of = CHL
+		victory_points = {
+			12920 10 
+		}
+		victory_points = {
+			12984 5 
+		}
+
+	}
+
+	provinces={
+		5121 8251 12920 12984 13207 13209 
+	}
+	manpower=560000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

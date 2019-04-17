@@ -1,0 +1,23 @@
+state={
+	id=793
+	name="Teruel"
+	provinces={
+		813 871 948 7213 9812 9933 
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			7213 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = SPR
+	}
+
+	manpower=527865
+	buildings_max_level_factor=1.000
+}
