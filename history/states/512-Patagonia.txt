@@ -1,0 +1,35 @@
+
+state={
+	id=512
+	name="STATE_512"
+	manpower = 18943
+	
+	state_category = rural
+	
+	resources={
+		oil=5 # was: 6
+	}
+
+	history={
+		owner = PAT
+		buildings = {
+			infrastructure = 3
+			10953 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PAT
+
+		victory_points = {
+			5173 10
+		}
+
+		victory_points = {
+			8176 15
+		}
+	}
+
+	provinces={
+		 2169 5173 8161 8176 10953 11005 11009 12349 12946 12952
+	}
+}
