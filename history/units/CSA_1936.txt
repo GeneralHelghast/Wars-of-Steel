@@ -1,0 +1,330 @@
+division_template = {
+	name = "Greyshirt Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+
+
+	support = {
+		engineer = { x = 0 y = 0}
+		artillery = {x = 0 y = 1}
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"  		
+
+	division_names_group = USA_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }     
+		engineer = { x = 0 y = 1 }   
+	}
+}
+
+division_template = {
+	name = "CSA Armored Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0}
+		light_armor = { x = 0 y = 1}
+		light_armor = { x = 1 y = 0}
+		light_armor = { x = 1 y = 1}
+		motorized = { x = 2 y = 0}
+		motorized = { x = 2 y = 1}
+	}
+
+	support = {
+		recon { x = 0 y = 0}
+		engineer = { x = 0 y = 1}
+		artillery = { x = 0 y = 2}
+	}
+}
+
+
+units = {
+	division = {
+		name = "1st Greyshirt Division"
+		location = 7202
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "2nd Greyshirt Division"
+		location = 7202
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "3rd Greyshirt Division"
+		location = 7202
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "4th Greyshirt Division"
+		location = 7202
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "5th Greyshirt Division"
+		location = 7202
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+}
+
+units = {
+	division = {
+		name = "6th Greyshirt Division"
+		location = 3823
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "7th Greyshirt Division"
+		location = 3823
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "8th Greyshirt Division"
+		location = 3823
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "9th Greyshirt Division"
+		location = 3823
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "10th Greyshirt Division"
+		location = 3823
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+}
+
+units = {
+	division = {
+		name = "11th Greyshirt Division"
+		location = 10412
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "12th Greyshirt Division"
+		location = 10412
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "13th Greyshirt Division"
+		location = 10412
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "14th Greyshirt Division"
+		location = 10412
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "15th Greyshirt Division"
+		location = 10412
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+}
+
+units = {
+	division = {
+		name = "16th Greyshirt Division"
+		location = 12489
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "17th Greyshirt Division"
+		location = 12489
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "18th Greyshirt Division"
+		location = 12489
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "19th Greyshirt Division"
+		location = 12489
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "20th Greyshirt Division"
+		location = 12489
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+}
+
+units = {
+	division = {
+		name = "21st Greyshirt Division"
+		location = 7552
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "22nd Greyshirt Division"
+		location = 7552
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "23rd Greyshirt Division"
+		location = 7552
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "24th Greyshirt Division"
+		location = 7552
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "25th Greyshirt Division"
+		location = 7552
+		division_template = "Greyshirt Division"
+		start_experience_factor = 0.5
+	}
+
+	units = {
+	division = {
+		name = "CSA Armored Division"
+		location = 12489
+		division_template = "CSA Armored Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "CSA Armored Division"
+		location = 12489
+		division_template = "CSA Armored Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "CSA Armored Division"
+		location = 12489
+		division_template = "CSA Armored Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "CSA Armored Division"
+		location = 12489
+		division_template = "CSA Armored Division"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "CSA Armored Division"
+		location = 12489
+		division_template = "CSA Armored Division"
+		start_experience_factor = 0.5
+	}
+}
+}
+
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CSA"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+
+		add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CSA"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+
+		add_equipment_production = {
+		equipment = {
+			type = anti_equipment_1
+			creator = "CSA"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "CSA"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+}
