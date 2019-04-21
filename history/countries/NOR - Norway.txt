@@ -210,6 +210,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "William Steffens"
+	picture = "Darwinreich William Steffens Portrait.dds"
+	expire = "1965.1.1"
+	ideology = bismarckism
+	traits = {
+		#
+	}
+}
+
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
