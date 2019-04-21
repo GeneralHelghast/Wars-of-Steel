@@ -352,6 +352,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Boris Savinkov"
+	picture = "Darwinreich Boris Savinkov Portrait.dds"
+	expire = "1965.1.1"
+	ideology = savinkovism
+	traits = {
+		#
+	}
+}
+
 add_ideas = {
 	home_of_revolution
 }
