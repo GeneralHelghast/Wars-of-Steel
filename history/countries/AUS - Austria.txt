@@ -83,22 +83,30 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl Renner"
-	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Hans Glucker"
+	picture = "Darwinreich Hans Glucker Portrait.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = abrahamic
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Arthur Seyss-Inquart"
-	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	name = "Otto I"
+	picture = "Darwinreich Otto von Habsburg Portrait.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = absolutism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Walter Breisky"
+	picture = "Darwinreich Walter Breisky Portrait.dds"
+	expire = "1965.1.1"
+	ideology = constitutional_dictatorship
 	traits = {
 		#
 	}
