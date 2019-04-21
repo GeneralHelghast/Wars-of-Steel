@@ -330,6 +330,9 @@ ideologies = {
 
 			saflikism = {
 			}
+
+			savinkovism = {
+			}
 		}
 		
 		dynamic_faction_names = {
