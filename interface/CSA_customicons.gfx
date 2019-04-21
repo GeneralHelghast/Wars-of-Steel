@@ -1,0 +1,11 @@
+spriteTypes = { 
+##Icon For: 220824
+ SpriteType = { 
+ name = "GFX_endorsetheisticevolution" 
+ texturefile = "gfx/interface/goals/GFX_endorsetheisticevolution.tga" 
+ }##Icon For: 220831
+ SpriteType = { 
+ name = "GFX_persecutethemormons" 
+ texturefile = "gfx/interface/goals/GFX_persecutethemormons.tga" 
+ } 
+ }

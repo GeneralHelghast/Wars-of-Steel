@@ -1,0 +1,7 @@
+spriteTypes = { 
+##Icon For: 183933
+ SpriteType = { 
+ name = "GFX_partyindoctrination" 
+ texturefile = "gfx/interface/goals/GFX_partyindoctrination.tga" 
+ } 
+ }
