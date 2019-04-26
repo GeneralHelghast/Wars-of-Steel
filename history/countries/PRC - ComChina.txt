@@ -199,18 +199,18 @@ if = {
 add_opinion_modifier = { target = CHI modifier = hostile_status }
 
 create_country_leader = {
-	name = "Mao Zedong"
-	picture = "Darwinreich Mao Zedong Portrait.dds"
+	name = "Chen Duxiu"
+	picture = "Darwinreich Chen Duxiu Portrait.dds"
 	expire = "1965.1.1"
-	ideology = maoism
+	ideology = leninism
 	traits = {
 		cornered_fox
 	}
 }
 
 create_field_marshal = {
-	name = "Mao Zedong"
-	gfx = "GFX_portrait_prc_mao_zedong"
+	name = "Chen Duxiu"
+	gfx = "Darwinreich Chen Duxiu Portrait.dds"
 	traits = { defensive_doctrine trait_cautious politically_connected }
 	skill = 4
 	attack_skill = 2

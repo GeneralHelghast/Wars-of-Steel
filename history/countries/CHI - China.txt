@@ -232,13 +232,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Zhang Guotao"
-	desc = "POLITICS_ZHANG_GUOTAO_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	name = "Mao Zedong"
+	picture = "Darwinreich Mao Zedong Portrait.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = maoism
 	traits = {
-		cornered_fox
 	}
 }
 
