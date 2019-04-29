@@ -245,8 +245,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "The Grand Wizard"
-	picture = "Darwinreich Grand Wizard Portrait.dds"
+	name = "Hugo Black"
+	picture = "Darwinreich Hugo Black Portrait.dds"
 	expire = "1965.1.1"
 	ideology = right_wing_populism
 	traits = {
